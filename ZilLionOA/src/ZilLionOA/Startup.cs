@@ -80,7 +80,7 @@ namespace ZilLionOA
 
             app.UseApplicationInsightsExceptionTelemetry();
 
-            app.UseStaticFiles();
+            app.UseStaticFiles();//启用静态文件
 
             app.UseIdentity();
 

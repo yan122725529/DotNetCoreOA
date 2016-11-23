@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZilLionOA", "src\ZilLionOA\ZilLionOA.xproj", "{6CEF3390-4A86-4AD3-9BCF-14D5F8FAE2D8}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZilLionOA.Web", "src\ZilLionOA\ZilLionOA.Web.xproj", "{6CEF3390-4A86-4AD3-9BCF-14D5F8FAE2D8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZilLionOA.Repository", "src\ZilLionOA.Repository\ZilLionOA.Repository.xproj", "{BDA838C3-1243-461D-BB6C-1A6A2E886FBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,11 +24,16 @@ Global
 		{6CEF3390-4A86-4AD3-9BCF-14D5F8FAE2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CEF3390-4A86-4AD3-9BCF-14D5F8FAE2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CEF3390-4A86-4AD3-9BCF-14D5F8FAE2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA838C3-1243-461D-BB6C-1A6A2E886FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA838C3-1243-461D-BB6C-1A6A2E886FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA838C3-1243-461D-BB6C-1A6A2E886FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA838C3-1243-461D-BB6C-1A6A2E886FBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6CEF3390-4A86-4AD3-9BCF-14D5F8FAE2D8} = {51ACABB4-311E-45E1-821C-472614669FC3}
+		{BDA838C3-1243-461D-BB6C-1A6A2E886FBA} = {51ACABB4-311E-45E1-821C-472614669FC3}
 	EndGlobalSection
 EndGlobal
